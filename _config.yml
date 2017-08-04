@@ -1,0 +1,18 @@
+env: production
+timezone: Asia/Manila
+title: "@sliceofbiancakes - Bianca Yao"
+description: >
+  A girl gamer from Peenoyland<br/>
+  Promoting E-Sports in the Philippines<br/>
+  Talent at <a href="https://www.tier.one/">Tier One Entertainment</a><br/>
+  Content Creator at <a href="https:///twitch.tv/">Twitch</a><br/>
+  Former Endorser at <a href="https://www.facebook.com/SmartCommunications/">Smart Communications, Inc.</a>
+
+twitter: sliceofbiancake
+facebook: BiancakeGaming
+instagram: sliceofb1ancake
+twitch: sliceofbiancakes
+
+exclude: [CNAME]
+gems:
+ - jemoji

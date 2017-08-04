@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body class="index">
+        <nav id="mainNav" class="navbar navbar-default navbar-static-top navbar-custom">
+            {% include navbar.html %}
+        </nav>
+        <header>
+            {% include header.html %}
+        </header>
+        {{ content }}
+        <footer class="text-center">
+            {% include footer.html %}
+        </footer>
+    </body>
+</html>

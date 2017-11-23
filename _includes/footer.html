@@ -57,11 +57,19 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script async src="//www.googletagmanager.com/gtag/js?id=UA-97447796-2"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'UA-97447796-2');
-</script>
 
+    (adsbygoogle = window.adsbygoogle || []).push({});
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/js/worker.js').then(function () {
+            console.log("Service worker registered");
+        });
+    }
+</script>

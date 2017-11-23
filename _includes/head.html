@@ -1,16 +1,28 @@
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta name="theme-color" content="#2C3E50">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ site.description | strip_html }}">
 <meta name="author" content="{{ site.title }}">
+<meta name="keywords" content="biancake, sliceofbiancakes, bianca yao">
 <meta name="google-site-verification" content="{{ site.verification }}"/>
+
+<meta name="title" content="{{ site.title }}">
+<meta name="description" content="{{ site.description | strip_html | strip_newlines }}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description | strip_html | strip_newlines }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description | strip_html | strip_newlines }}">
 
 <title>{{ site.title }}</title>
 
+<link href="/manifest.json" rel="manifest" />
+<link href="{{ site.url }}{{ page.url }}"  rel="canonical"/>
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/sliceofbiancake.min.css" rel="stylesheet">
 <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 <link href="/img/icon.png" rel="icon"/>
 
 <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
